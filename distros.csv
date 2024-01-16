@@ -1,4 +1,5 @@
 distribution,version,url
+alpine,3.19,https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-standard-3.19.0-x86_64.iso
 alma_linux,9.2,http://mirror.steadfastnet.com/almalinux/9.2/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso
 ubuntu,23.10,https://releases.ubuntu.com/23.10/ubuntu-23.10.1-desktop-amd64.iso
 ubuntu_server,22.04,https://mirrors.sarak.as/ubuntu-releases/22.04.3/ubuntu-22.04.3-live-server-amd64.iso
@@ -15,7 +16,13 @@ endeavouros,2023.04,https://endeavouros.com/latest-release-iso/
 pop_os_intel,22.04,https://iso.pop-os.org/22.04/amd64/intel/35/pop-os_22.04_amd64_intel_35.iso
 pop_os_nvidia,22.04,https://iso.pop-os.org/22.04/amd64/nvidia/35/pop-os_22.04_amd64_nvidia_35.iso
 zorin,16.3,https://mirror.clarkson.edu/zorinos/isos/16/Zorin-OS-16.3-Core-64-bit.iso
-elementary_os,7.1,https://nyc3.dl.elementary.io/download/MTY5ODAwNzQ4OQ==/elementaryos-7.1-stable.20230926rc.iso
+elementary_os,7.1,https://archive.org/download/elementaryos-7.1-stable.20230926rc_202401/elementaryos-7.1-stable.20230926rc.iso
 rocky_linux,9,https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.2-x86_64-minimal.iso
 windows_server_2022,eval,https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso
 bazzite,2.1.0,https://github.com/ublue-os/bazzite/releases/download/v2.1.0/bazzite-39-x86_64-20231213.iso
+gentoo,latest,https://distfiles.gentoo.org/releases/amd64/autobuilds/20240114T164819Z/install-amd64-minimal-20240114T164819Z.iso
+magea,9,https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
+endeavouros,Galileo,https://mirrors.gigenet.com/endeavouros/iso/Endeavouros-Galileo-11-2023.iso
+nobara,39,https://nobara-images.nobaraproject.org/Nobara-39-Official-2024-01-11.iso
+linux_lite,6.6,http://repo.linuxliteos.com/linuxlite/isos/6.6/linux-lite-6.6-64bit.iso
+freeBSD,14.0,https://download.freebsd.org/releases/ISO-IMAGES/14.0/FreeBSD-14.0-RELEASE-amd64-dvd1.iso
