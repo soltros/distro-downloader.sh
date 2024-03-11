@@ -6,6 +6,25 @@ if ! [ -x "$(command -v wget)" ]; then
   exit 1
 fi
 
+# GitHub URL of the distros.csv file
+GITHUB_DISTROS_CSV_URL='https://raw.githubusercontent.com/soltros/distro-downloader.sh/main/distros.csv'
+
+# Directory of the script
+SCRIPT_DIR="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+
+update_distro_csv() {
+  echo "Checking for updates..."
+  wget -q -O "${SCRIPT_DIR}/distros.csv.tmp" "$GITHUB_DISTROS_CSV_URL"
+  
+  if ! diff -q "${SCRIPT_DIR}/distros.csv" "${SCRIPT_DIR}/distros.csv.tmp" > /dev/null; then
+    echo "Updates found. Updating distros.csv..."
+    mv "${SCRIPT_DIR}/distros.csv.tmp" "${SCRIPT_DIR}/distros.csv"
+  else
+    echo "No updates found."
+    rm "${SCRIPT_DIR}/distros.csv.tmp"
+  fi
+}
+
 download_distro() {
   local url=$1
   local file_name=$2
@@ -14,8 +33,11 @@ download_distro() {
 
 list_distros() {
   echo "Available distributions:"
-  tail -n +2 distros.csv | cut -d',' -f1
+  tail -n +2 "${SCRIPT_DIR}/distros.csv" | cut -d',' -f1
 }
+
+# Update distros.csv from GitHub before doing anything else
+update_distro_csv
 
 # Call list_distros if no arguments are provided
 if [ "$#" -eq 0 ]; then
@@ -32,7 +54,7 @@ while IFS=, read -r distribution version url; do
     download_distro "$url" "$file_name"
     exit 0
   fi
-done < distros.csv
+done < "${SCRIPT_DIR}/distros.csv"
 
 echo "Unsupported distribution: $distro"
 exit 1
