@@ -9,7 +9,9 @@ archlinux,current,http://mirrors.acm.wpi.edu/archlinux/iso/2023.10.14/archlinux-
 manjaro,current,https://download.manjaro.org/kde/23.0.4/manjaro-kde-23.0.4-231015-linux65.iso
 opensuse_tumbleweed,tumbleweed,https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
 opensuse_leap,leap,https://download.opensuse.org/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso
-nixos,23.11,https://channels.nixos.org/nixos-23.11/latest-nixos-minimal-x86_64-linux.iso
+nixos_stable,23.11,https://channels.nixos.org/nixos-23.11/latest-nixos-minimal-x86_64-linux.iso
+nixos_latest,unstable,https://archive.org/download/nixos-bcachefs/nixos-bcachefs.iso
+snowflakeOS,alpha,https://cytranet.dl.sourceforge.net/project/snowflakeos/snowflakeos-unstable-x86_64-linux.iso
 mxlinux,23.1,https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-23.1_x64.iso/download
 mint,21.2,https://mirrors.advancedhosters.com/linuxmint/isos/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso
 endeavouros,2023.04,https://mirrors.gigenet.com/endeavouros/iso/Endeavouros-Galileo-11-2023.iso
