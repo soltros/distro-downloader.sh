@@ -21,7 +21,8 @@ zorin,16.3,https://mirror.clarkson.edu/zorinos/isos/16/Zorin-OS-16.3-Core-64-bit
 elementary_os,7.1,https://archive.org/download/elementaryos-7.1-stable.20230926rc_202401/elementaryos-7.1-stable.20230926rc.iso
 rocky_linux,9,https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.2-x86_64-minimal.iso
 windows_server_2022,eval,https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso
-bazzite,2.1.0,https://github.com/ublue-os/bazzite/releases/download/v2.1.0/bazzite-39-x86_64-20231213.iso
+bazzite_deck_KDE,2.1.0,https://download.bazzite.gg/bazzite-deck-stable.iso
+bazzite_deck_GNOME,2.1.0,https://download.bazzite.gg/bazzite-deck-gnome-stable.iso
 gentoo,latest,https://distfiles.gentoo.org/releases/amd64/autobuilds/20240114T164819Z/install-amd64-minimal-20240114T164819Z.iso
 magea,9,https://mirror.math.princeton.edu/pub/mageia/iso/9/Mageia-9-Live-Plasma-x86_64/Mageia-9-Live-Plasma-x86_64.iso
 endeavouros,Galileo,https://mirrors.gigenet.com/endeavouros/iso/Endeavouros-Galileo-11-2023.iso
