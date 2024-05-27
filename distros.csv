@@ -1,5 +1,5 @@
 distribution,version,url
-alpine,3.19,https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-standard-3.19.0-x86_64.iso
+alpine,3.20.0,https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-standard-3.20.0-x86_64.iso
 alma_linux,9.2,http://mirror.steadfastnet.com/almalinux/9.2/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso
 ubuntu,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-desktop-amd64.iso
 ubuntu_server,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-live-server-amd64.iso
