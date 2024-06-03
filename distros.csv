@@ -3,7 +3,9 @@ alpine,3.20.0,https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine
 alma_linux,9.2,http://mirror.steadfastnet.com/almalinux/9.2/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso
 ubuntu,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-desktop-amd64.iso
 ubuntu_server,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-live-server-amd64.iso
-fedora,39,https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso
+fedora,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso
+fedora_kinoite,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-40-1.14.iso
+fedora_silverblue,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso
 debian,12,https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.5.0-amd64-netinst.iso
 debian_testing,testing,https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-netinst.iso
 archlinux,current,https://geo.mirror.pkgbuild.com/iso/2024.05.01/archlinux-2024.05.01-x86_64.iso
