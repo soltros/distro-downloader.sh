@@ -6,6 +6,12 @@ if ! [ -x "$(command -v wget)" ]; then
   exit 1
 fi
 
+# Check if dd is installed
+if ! [ -x "$(command -v dd)" ]; then
+  echo 'Error: dd is not installed.' >&2
+  exit 1
+fi
+
 # GitHub URL of the distros.csv file
 GITHUB_DISTROS_CSV_URL='https://raw.githubusercontent.com/soltros/distro-downloader.sh/main/distros.csv'
 
@@ -36,6 +42,15 @@ list_distros() {
   tail -n +2 "${SCRIPT_DIR}/distros.csv" | cut -d',' -f1
 }
 
+flash_to_usb() {
+  local iso_file=$1
+  echo "Available USB drives:"
+  lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+  read -p "Enter the device name (e.g. /dev/sdb): " device
+  dd if="$iso_file" of="$device" bs=4M status=progress oflag=sync
+  echo "Flashing complete. Please verify the USB drive."
+}
+
 # Update distros.csv from GitHub before doing anything else
 update_distro_csv
 
@@ -52,6 +67,7 @@ while IFS=, read -r distribution version url; do
   if [[ "$distro" == "$distribution" ]]; then
     file_name="$distribution-$version.iso"
     download_distro "$url" "$file_name"
+    flash_to_usb "$HOME/Downloads/$file_name"
     exit 0
   fi
 done < "${SCRIPT_DIR}/distros.csv"
