@@ -2,7 +2,7 @@ distribution,version,url
 alpine,3.20.0,https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-standard-3.20.0-x86_64.iso
 alma_linux,9.2,http://mirror.steadfastnet.com/almalinux/9.2/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso
 ubuntu,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-desktop-amd64.iso
-ubuntu_server,24.04,https://www.releases.ubuntu.com/noble/ubuntu-24.04-live-server-amd64.iso
+ubuntu_server,24.04.1,https://mirror.pnl.gov/releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso
 fedora,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso
 fedora_kinoite,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-40-1.14.iso
 fedora_silverblue,40,https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso
